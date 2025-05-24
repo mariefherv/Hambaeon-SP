@@ -1,0 +1,1090 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Adda-Decker%
+\ \BBA {} Lamel%
+}{%
+Adda-Decker%
+\ \BBA {} Lamel%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+Adda-Decker:2000}
+\APACinsertmetastar {%
+Adda-Decker:2000}%
+\begin{APACrefauthors}%
+Adda-Decker, M.%
+\BCBT {}\ \BBA {} Lamel, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Use of Lexica in Automatic Speech Recognition} {The
+  use of lexica in automatic speech recognition}.{\BBCQ}
+\newblock
+\BIn{} F.~Van~Eynde\ \BBA {} D.~Gibbon\ (\BEDS), \APACrefbtitle {Lexicon
+  Development for Speech and Language Processing} {Lexicon development for
+  speech and language processing}\ (\BPGS\ 235--266).
+\newblock
+\APACaddressPublisher{Dordrecht}{Springer Netherlands}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1007/978-94-010-9458-0_8}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-94-010-9458-0_8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alejan%
+\ \protect \BOthers {.}}{%
+Alejan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Alejan:2021}
+\APACinsertmetastar {%
+Alejan:2021}%
+\begin{APACrefauthors}%
+Alejan, J\BPBI A.%
+, Ayop, J\BPBI I\BPBI E.%
+, Allojado, J\BPBI B.%
+, Abatayo, D\BPBI P\BPBI B.%
+, Abacahin, S\BPBI K\BPBI N.%
+\BCBL {}\ \BBA {} Bonifacio, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{May}{}.
+\newblock
+\APACrefbtitle {Heritage Language Maintenance and Revitalization: Evaluating
+  the Language Endangerment among the Indigenous Languages in Bukidnon,
+  Philippines.} {Heritage language maintenance and revitalization: Evaluating
+  the language endangerment among the indigenous languages in bukidnon,
+  philippines.}
+\newblock
+\begin{APACrefURL} \url{https://eric.ed.gov/?id=ED617996} \end{APACrefURL}
+\newblock
+\APACrefnote{ERIC - Online Submission}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alharbi%
+\ \protect \BOthers {.}}{%
+Alharbi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Alharbi:2021}
+\APACinsertmetastar {%
+Alharbi:2021}%
+\begin{APACrefauthors}%
+Alharbi, S.%
+, Alrazgan, M.%
+, Alrashed, A.%
+, AlNomasi, T.%
+, Almojel, R.%
+, Alharbi, R.%
+\BDBL {}Almojil, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{09}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic Speech Recognition: Systematic Literature
+  Review} {Automatic speech recognition: Systematic literature review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{PP}{}{1-1}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2021.3112535} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bhatt%
+, Jain%
+\BCBL {}\ \BBA {} Dev%
+}{%
+Bhatt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Bhatt:2020}
+\APACinsertmetastar {%
+Bhatt:2020}%
+\begin{APACrefauthors}%
+Bhatt, S.%
+, Jain, A.%
+\BCBL {}\ \BBA {} Dev, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Acoustic Modeling in Speech Recognition: A Systematic
+  Review} {Acoustic modeling in speech recognition: A systematic
+  review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Computer Science and
+  Applications}{11}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.14569/IJACSA.2020.0110455} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Billones%
+\ \BBA {} Dadios%
+}{%
+Billones%
+\ \BBA {} Dadios%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Billones:2014}
+\APACinsertmetastar {%
+Billones:2014}%
+\begin{APACrefauthors}%
+Billones, R\BPBI K\BPBI C.%
+\BCBT {}\ \BBA {} Dadios, E\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hiligaynon language 5-word vocabulary speech recognition
+  using Mel frequency cepstrum coefficients and genetic algorithm} {Hiligaynon
+  language 5-word vocabulary speech recognition using mel frequency cepstrum
+  coefficients and genetic algorithm}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 International Conference on Humanoid,
+  Nanotechnology, Information Technology, Communication and Control,
+  Environment and Management (HNICEM)} {2014 international conference on
+  humanoid, nanotechnology, information technology, communication and control,
+  environment and management (hnicem)}\ (\BPG~1-6).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/HNICEM.2014.7016247} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Biray%
+}{%
+Biray%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Biray:2023}
+\APACinsertmetastar {%
+Biray:2023}%
+\begin{APACrefauthors}%
+Biray, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{12}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Derivational Morphology Features in Common Akeanon
+  Dialects} {Derivational morphology features in common akeanon
+  dialects}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Language and Literary
+  Studies}{5}{}{222-234}.
+\newblock
+\begin{APACrefDOI} \doi{10.36892/ijlls.v5i4.1441} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cerna%
+, Cascaro%
+, Juan%
+, Montes%
+\BCBL {}\ \BBA {} Caballero%
+}{%
+Cerna%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Cerna:2023}
+\APACinsertmetastar {%
+Cerna:2023}%
+\begin{APACrefauthors}%
+Cerna, P\BPBI D.%
+, Cascaro, R\BPBI J.%
+, Juan, K\BPBI O\BPBI S.%
+, Montes, B\BPBI J\BPBI C.%
+\BCBL {}\ \BBA {} Caballero, A\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bisayan Dialect Short-time Fourier Transform Audio
+  Recognition System using Convolutional and Recurrent Neural Network} {Bisayan
+  dialect short-time fourier transform audio recognition system using
+  convolutional and recurrent neural network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Computer Science and
+  Applications}{14}{3}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.14569/IJACSA.2023.01403111}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.14569/IJACSA.2023.01403111} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chodroff%
+}{%
+Chodroff%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Chodroff:2018}
+\APACinsertmetastar {%
+Chodroff:2018}%
+\begin{APACrefauthors}%
+Chodroff, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Kaldi Tutorial.} {Kaldi tutorial.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.eleanorchodroff.com/tutorial/kaldi/index.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cichon%
+, Talabara-Feliciano%
+\BCBL {}\ \BBA {} Mindanao%
+}{%
+Cichon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Cichon:Bueawanon}
+\APACinsertmetastar {%
+Cichon:Bueawanon}%
+\begin{APACrefauthors}%
+Cichon, M.%
+, Talabara-Feliciano, D\BPBI R\BPBI H.%
+\BCBL {}\ \BBA {} Mindanao, P\BPBI J\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Mga Bueawanon Nga Hueobaton Sa Akeanon.} {Mga bueawanon nga
+  hueobaton sa akeanon.}
+\newblock
+\APACrefnote{Retrieved at Kalibo Municipal Library}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+de~la Cruz%
+\ \BBA {} Zorc%
+}{%
+de~la Cruz%
+\ \BBA {} Zorc%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+deLaCruz:1968}
+\APACinsertmetastar {%
+deLaCruz:1968}%
+\begin{APACrefauthors}%
+de~la Cruz, B\BPBI A.%
+\BCBT {}\ \BBA {} Zorc, R\BPBI D\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1968}.
+\newblock
+\APACrefbtitle {A Study of the Aklanon Dialect. Volume One: Grammar} {A study
+  of the aklanon dialect. volume one: Grammar}.
+\newblock
+\APACaddressPublisher{}{Peace Corps}.
+\newblock
+\begin{APACrefURL} \url{https://eric.ed.gov/?id=ED145705} \end{APACrefURL}
+\newblock
+\APACrefnote{ERIC - ED145705}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+de Méntrida-Aparicio%
+}{%
+de Méntrida-Aparicio%
+}{%
+{\protect \APACyear {1841}}%
+}]{%
+Aparicio:1841}
+\APACinsertmetastar {%
+Aparicio:1841}%
+\begin{APACrefauthors}%
+de Méntrida-Aparicio, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1841}.
+\newblock
+\APACrefbtitle {Lengua Bisaya, Hiligueina y Haraya de la isla de Panay} {Lengua
+  bisaya, hiligueina y haraya de la isla de panay}.
+\newblock
+\APACaddressPublisher{}{D. Manuel y de d. Feliz Dayoy}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fahad%
+, Fatema%
+, Mukta%
+\BCBL {}\ \BBA {} Raiaan%
+}{%
+Fahad%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Fahad:2024}
+\APACinsertmetastar {%
+Fahad:2024}%
+\begin{APACrefauthors}%
+Fahad, N\BPBI M.%
+, Fatema, K.%
+, Mukta, S.%
+\BCBL {}\ \BBA {} Raiaan, M\BPBI A\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Review on Large Language Models: Architectures,
+  Applications, Taxonomies, Open Issues and Challenges} {A review on large
+  language models: Architectures, applications, taxonomies, open issues and
+  challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Science}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2227-7390/11/21/4493}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2024.3365742} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Foster%
+}{%
+Foster%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Foster:2023}
+\APACinsertmetastar {%
+Foster:2023}%
+\begin{APACrefauthors}%
+Foster, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {The Impact of Digital Archives on Historical Research.} {The
+  impact of digital archives on historical research.}
+\newblock
+\APAChowpublished {\url{https://example.com}}.
+\newblock
+\APACrefnote{Accessed: 2025-05-19}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Khan%
+\ \protect \BOthers {.}}{%
+Khan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Khan:2023}
+\APACinsertmetastar {%
+Khan:2023}%
+\begin{APACrefauthors}%
+Khan, M.%
+, Ullah, K.%
+, Alharbi, Y.%
+, Alferaidi, A.%
+, Alharbi, T\BPBI S.%
+, Yadav, K.%
+\BDBL {}Ahmad, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Understanding the Research Challenges in Low-Resource
+  Language and Linking Bilingual News Articles in Multilingual News Archive}
+  {Understanding the research challenges in low-resource language and linking
+  bilingual news articles in multilingual news archive}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Sciences}{13}{15}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2076-3417/13/15/8566}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/app13158566} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Krauwer%
+}{%
+Krauwer%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+Krauwer:2003}
+\APACinsertmetastar {%
+Krauwer:2003}%
+\begin{APACrefauthors}%
+Krauwer, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Basic Language Resource Kit (BLARK) as the First
+  Milestone for the Language Resources Roadmap} {The basic language resource
+  kit (blark) as the first milestone for the language resources
+  roadmap}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the European Network in Human Language
+  Technologies Workshop.} {Proceedings of the european network in human
+  language technologies workshop.}
+\newblock
+\APACaddressPublisher{Utrecht, The Netherlands}{ELSNET}.
+\newblock
+\begin{APACrefURL} \url{http://www.elsnet.org/dox/blark.html} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Levis%
+\ \BBA {} Suvorov%
+}{%
+Levis%
+\ \BBA {} Suvorov%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Levis:2012}
+\APACinsertmetastar {%
+Levis:2012}%
+\begin{APACrefauthors}%
+Levis, J.%
+\BCBT {}\ \BBA {} Suvorov, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{11}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic Speech Recognition} {Automatic speech
+  recognition}.{\BBCQ}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/9781405198431.wbeal0066} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liao%
+\ \protect \BOthers {.}}{%
+Liao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Liaoetal:2019}
+\APACinsertmetastar {%
+Liaoetal:2019}%
+\begin{APACrefauthors}%
+Liao, E.%
+, Ganareal, K.%
+, Paguia, C.%
+, Agreda, C.%
+, Octaviano, M.%
+\BCBL {}\ \BBA {} Rodriguez, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{11}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards the Development of Automatic Speech Recognition
+  for Bikol and Kapampangan} {Towards the development of automatic speech
+  recognition for bikol and kapampangan}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-5).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/HNICEM48295.2019.9072783} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mago%
+\ \BBA {} Qudar%
+}{%
+Mago%
+\ \BBA {} Qudar%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Mago:2020}
+\APACinsertmetastar {%
+Mago:2020}%
+\begin{APACrefauthors}%
+Mago, V.%
+\BCBT {}\ \BBA {} Qudar, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {A Survey on Language Models.} {A survey on language models.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.researchgate.net/publication/344158120_A_Survey_on_Language_Models3}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Magueresse%
+, Carles%
+\BCBL {}\ \BBA {} Heetderks%
+}{%
+Magueresse%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Magueresse:2020}
+\APACinsertmetastar {%
+Magueresse:2020}%
+\begin{APACrefauthors}%
+Magueresse, A.%
+, Carles, V.%
+\BCBL {}\ \BBA {} Heetderks, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Low-resource Languages: {A} Review of Past Work and
+  Future Challenges} {Low-resource languages: {A} review of past work and
+  future challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2006.07264}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2006.07264} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Monteclaro%
+}{%
+Monteclaro%
+}{%
+{\protect \APACyear {1929}}%
+}]{%
+Monteclaro:1929}
+\APACinsertmetastar {%
+Monteclaro:1929}%
+\begin{APACrefauthors}%
+Monteclaro, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1929}.
+\newblock
+\APACrefbtitle {Maragtas kon (historia): Sang pul{\^u} ng̃a Panay kutub sang
+  iya una ng̃a pumuluy{\`o}, tubtub sang pag-ab{\'u}t sang mg̃a tag{\'a}
+  Borneo ng̃a am{\`o} ang ginhalin{\'a}n sang mg̃a bisay{\^a}, kag sang
+  pag-ab{\'u}t sang mg̃a katsil{\`a} ...} {Maragtas kon (historia): Sang
+  pul{\^u} ng̃a panay kutub sang iya una ng̃a pumuluy{\`o}, tubtub sang
+  pag-ab{\'u}t sang mg̃a tag{\'a} borneo ng̃a am{\`o} ang ginhalin{\'a}n sang
+  mg̃a bisay{\^a}, kag sang pag-ab{\'u}t sang mg̃a katsil{\`a} ...}
+\newblock
+\APACaddressPublisher{}{Makinaugalingon}.
+\newblock
+\begin{APACrefURL} \url{https://books.google.com.ph/books?id=mCpIHQAACAAJ}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Panizales%
+, Jr.%
+\BCBL {}\ \BBA {} Piorque%
+}{%
+Panizales%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Panizales:2023}
+\APACinsertmetastar {%
+Panizales:2023}%
+\begin{APACrefauthors}%
+Panizales, J\BPBI P.%
+, Jr., B\BPBI G.%
+\BCBL {}\ \BBA {} Piorque, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {SpeakNow: A Speech-to-Text System for the Hiligaynon Language
+  using Kaldi Toolkit.} {Speaknow: A speech-to-text system for the hiligaynon
+  language using kaldi toolkit.}
+\newblock
+\APAChowpublished {Undergraduate Thesis, University of the Philippines
+  Visayas}.
+\newblock
+\APACrefnote{Accessible through the UPV Computer Science Faculty}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pastrana%
+}{%
+Pastrana%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Pastrana:2012}
+\APACinsertmetastar {%
+Pastrana:2012}%
+\begin{APACrefauthors}%
+Pastrana, T\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {A Thesaurus in Aklanon.} {A thesaurus in aklanon.}
+\newblock
+\APACrefnote{Retrieved at Kalibo Municipal Library}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Philippine~Statistics~Authority}%
+}{%
+{Philippine~Statistics~Authority}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+PSA:2023}
+\APACinsertmetastar {%
+PSA:2023}%
+\begin{APACrefauthors}%
+{Philippine~Statistics~Authority}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Tagalog is the Most Widely Spoken Language at Home (2020 Census
+  of Population and Housing).} {Tagalog is the most widely spoken language at
+  home (2020 census of population and housing).}
+\newblock
+\begin{APACrefURL}
+  \url{https://psa.gov.ph/content/tagalog-most-widely-spoken-language-home-2020-census-population-and-housing}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Poupard%
+}{%
+Poupard%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Poupard:2024}
+\APACinsertmetastar {%
+Poupard:2024}%
+\begin{APACrefauthors}%
+Poupard, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Attention is all low-resource languages need} {Attention
+  is all low-resource languages need}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Translation Studies}{17}{2}{424--427}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1080/14781700.2024.2336000}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1080/14781700.2024.2336000} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Povey%
+\ \protect \BOthers {.}}{%
+Povey%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Povey:2011}
+\APACinsertmetastar {%
+Povey:2011}%
+\begin{APACrefauthors}%
+Povey, D.%
+, Ghoshal, A.%
+, Boulianne, G.%
+, Burget, L.%
+, Glembek, O.%
+, Goel, N.%
+\BDBL {}Vesely, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Kaldi Speech Recognition Toolkit} {The kaldi speech
+  recognition toolkit}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {IEEE 2011 Workshop on Automatic Speech Recognition and
+  Understanding (ASRU).} {Ieee 2011 workshop on automatic speech recognition
+  and understanding (asru).}
+\newblock
+\APACaddressPublisher{Waikoloa, HI, USA}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.danielpovey.com/files/2011_asru_kaldi.pdf}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{IEEE Catalog Number: CFP11SRW-USB}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rentillo%
+\ \BBA {} Pototanon%
+}{%
+Rentillo%
+\ \BBA {} Pototanon%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Rentillo:2022}
+\APACinsertmetastar {%
+Rentillo:2022}%
+\begin{APACrefauthors}%
+Rentillo, P.%
+\BCBT {}\ \BBA {} Pototanon, R\BPBI M\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{Jan.}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Synchronic and Historical Look at Aklanon Phonology}
+  {A synchronic and historical look at aklanon phonology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Acta Linguistica Asiatica}{12}{1}{91–127}.
+\newblock
+\begin{APACrefURL} \url{https://journals.uni-lj.si/ala/article/view/10359}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.4312/ala.12.1.91-127} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sarabia-Belayro%
+}{%
+Sarabia-Belayro%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {1}}}}}]{%
+Belayro:Suguilanon}
+\APACinsertmetastar {%
+Belayro:Suguilanon}%
+\begin{APACrefauthors}%
+Sarabia-Belayro, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {1}}}{}{}.
+\newblock
+\APACrefbtitle {Mga Suguilanon ni Tita Linda.} {Mga suguilanon ni tita linda.}
+\newblock
+\APACrefnote{Retrieved at Kalibo Municipal Library}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sarabia-Belayro%
+}{%
+Sarabia-Belayro%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {2}}}}}]{%
+Belayro:Tales}
+\APACinsertmetastar {%
+Belayro:Tales}%
+\begin{APACrefauthors}%
+Sarabia-Belayro, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {2}}}{}{}.
+\newblock
+\APACrefbtitle {Tales and Legends of Aklan (in Akeanon).} {Tales and legends of
+  aklan (in akeanon).}
+\newblock
+\APACrefnote{Retrieved at Kalibo Municipal Library}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sarabia-Belayro%
+}{%
+Sarabia-Belayro%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Belayro:2015}
+\APACinsertmetastar {%
+Belayro:2015}%
+\begin{APACrefauthors}%
+Sarabia-Belayro, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Diksyunaryong Akeanon-English-Filipino.} {Diksyunaryong
+  akeanon-english-filipino.}
+\newblock
+\APACrefnote{Retrieved at Kalibo Municipal Library}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{SIL~International}%
+}{%
+{SIL~International}%
+}{%
+{\protect \APACyear {1974}}%
+}]{%
+SIL:Malaynon}
+\APACinsertmetastar {%
+SIL:Malaynon}%
+\begin{APACrefauthors}%
+{SIL~International}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+\APACrefbtitle {Malaynon - Malay, Aklan wordlist.} {Malaynon - malay, aklan
+  wordlist.}
+\newblock
+\begin{APACrefURL} \url{https://www.sil.org/resources/archives/77204}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{SIL~International}%
+}{%
+{SIL~International}%
+}{%
+{\protect \APACyear {1977}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+SIL:Bukidnon2}
+\APACinsertmetastar {%
+SIL:Bukidnon2}%
+\begin{APACrefauthors}%
+{SIL~International}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1977{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {Aklanon - Dalagsaan - Libacao wordlist.} {Aklanon - dalagsaan -
+  libacao wordlist.}
+\newblock
+\begin{APACrefURL} \url{https://www.sil.org/resources/archives/77203}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{SIL~International}%
+}{%
+{SIL~International}%
+}{%
+{\protect \APACyear {1977}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+SIL:Bukidnon1}
+\APACinsertmetastar {%
+SIL:Bukidnon1}%
+\begin{APACrefauthors}%
+{SIL~International}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1977{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {Aklanon - Libacaw wordlist.} {Aklanon - libacaw wordlist.}
+\newblock
+\begin{APACrefURL} \url{https://www.sil.org/resources/archives/77206}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Televic%
+}{%
+Televic%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Televic:2024}
+\APACinsertmetastar {%
+Televic:2024}%
+\begin{APACrefauthors}%
+Televic.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{1}{}.
+\newblock
+\APACrefbtitle {The Evolution of Speech-to-Text Technology.} {The evolution of
+  speech-to-text technology.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.televic.com/en/televicgsp/news/the-evolution-of-speechtotext-technology}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Thinking Machines Data Science}%
+}{%
+{Thinking Machines Data Science}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+AkeanonMap}
+\APACinsertmetastar {%
+AkeanonMap}%
+\begin{APACrefauthors}%
+{Thinking Machines Data Science}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Mapping the Languages of the Philippines.} {Mapping the
+  languages of the philippines.}
+\newblock
+\begin{APACrefURL}
+  \url{https://stories.thinkingmachin.es/philippine-languages/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tsvetkov%
+}{%
+Tsvetkov%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Tsvetkov:2017}
+\APACinsertmetastar {%
+Tsvetkov:2017}%
+\begin{APACrefauthors}%
+Tsvetkov, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Opportunities and Challenges in Working with Low-Resource
+  Languages.} {Opportunities and challenges in working with low-resource
+  languages.}
+\newblock
+\begin{APACrefURL} \url{https://www.cs.cmu.edu/~ytsvetko/jsalt-part1.pdf}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{PDF}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wellstood%
+}{%
+Wellstood%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Wellstood:2022}
+\APACinsertmetastar {%
+Wellstood:2022}%
+\begin{APACrefauthors}%
+Wellstood, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A relative clause analysis of event existential
+  constructions in Aklanon} {A relative clause analysis of event existential
+  constructions in aklanon}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{GLOSSA}{7}{1}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.glossa-journal.org/article/id/5866/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.16995/glossa.5866} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zorc%
+}{%
+Zorc%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+Zorc:1995}
+\APACinsertmetastar {%
+Zorc:1995}%
+\begin{APACrefauthors}%
+Zorc, R\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Aklanon} {Aklanon}.{\BBCQ}
+\newblock
+\BIn{} D\BPBI T.~Tryon\ (\BED), \APACrefbtitle {Comparative Austronesian
+  Dictionary: An Introduction to Austronesian Studies} {Comparative
+  austronesian dictionary: An introduction to austronesian studies}\ (\BPGS\
+  343--350).
+\newblock
+\APACaddressPublisher{Berlin, New York}{De Gruyter Mouton}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1515/9783110884012.1.343}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1515/9783110884012.1.343} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zorc%
+, Reyes%
+\BCBL {}\ \BBA {} Prado%
+}{%
+Zorc%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1969}}%
+}]{%
+Reyes:1969}
+\APACinsertmetastar {%
+Reyes:1969}%
+\begin{APACrefauthors}%
+Zorc, R\BPBI D.%
+, Reyes, V\BPBI S.%
+\BCBL {}\ \BBA {} Prado, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1969}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Study of the Aklanon Dialect, Volume Two: Dictionary
+  (of Root Words and Derivations), Aklanon to English} {A study of the aklanon
+  dialect, volume two: Dictionary (of root words and derivations), aklanon to
+  english}.{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
