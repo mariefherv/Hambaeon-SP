@@ -593,13 +593,13 @@ Monteclaro, P.%
 \newblock
 \APACrefYear{1929}.
 \newblock
-\APACrefbtitle {Maragtas kon (historia): Sang pul{\^u} ng̃a Panay kutub sang
-  iya una ng̃a pumuluy{\`o}, tubtub sang pag-ab{\'u}t sang mg̃a tag{\'a}
-  Borneo ng̃a am{\`o} ang ginhalin{\'a}n sang mg̃a bisay{\^a}, kag sang
-  pag-ab{\'u}t sang mg̃a katsil{\`a} ...} {Maragtas kon (historia): Sang
-  pul{\^u} ng̃a panay kutub sang iya una ng̃a pumuluy{\`o}, tubtub sang
-  pag-ab{\'u}t sang mg̃a tag{\'a} borneo ng̃a am{\`o} ang ginhalin{\'a}n sang
-  mg̃a bisay{\^a}, kag sang pag-ab{\'u}t sang mg̃a katsil{\`a} ...}
+\APACrefbtitle {Maragtas kon (historia): Sang pul{\^u} n\~ga Panay kutub sang
+  iya una n\~ga pumuluy{\`o}, tubtub sang pag-ab{\'u}t sang mg\~a tag{\'a}
+  Borneo n\~ga am{\`o} ang ginhalin{\'a}n sang mg\~a bisay{\^a}, kag sang
+  pag-ab{\'u}t sang mg\~a katsil{\`a} ...} {Maragtas kon (historia): Sang
+  pul{\^u} n\~ga panay kutub sang iya una n\~ga pumuluy{\`o}, tubtub sang
+  pag-ab{\'u}t sang mg\~a tag{\'a} borneo n\~ga am{\`o} ang ginhalin{\'a}n sang
+  mg\~a bisay{\^a}, kag sang pag-ab{\'u}t sang mg\~a katsil{\`a} ...}
 \newblock
 \APACaddressPublisher{}{Makinaugalingon}.
 \newblock
@@ -781,6 +781,34 @@ Rentillo, P.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.4312/ala.12.1.91-127} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rhandley D.~Cajote%
+}{%
+Rhandley D.~Cajote%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Cajote:2023}
+\APACinsertmetastar {%
+Cajote:2023}%
+\begin{APACrefauthors}%
+Rhandley D.~Cajote, M\BPBI G\BPBI A\BPBI R\BPBI B\BPBI C\BPBI R\BPBI G\BPBI L.,
+  Rowena Cristina L.~Guevara.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Philippine Languages Database: A Multilingual Speech
+  Corporafor Developing Systems for Philippine Spoken Languages} {Philippine
+  languages database: A multilingual speech corporafor developing systems for
+  philippine spoken languages}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  \url{https://aclanthology.org/2024.sigul-1.32.pdf?fbclid=IwY2xjawKe9IRleHRuA2FlbQIxMQABHgy7j8AT9JflvOAkaBICYQgQIcZ8pLV0ffJjbz4x7nx6w9w9VqFQgWf8EetC_aem_XdjLwMdjBJrmTvyire4OBA}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
