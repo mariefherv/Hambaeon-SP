@@ -1,8 +1,7 @@
 %   Filename    : chapter_4.tex 
 \chapter{Research Methodology}
-This chapter discusses the methodology used to develop the text and speech corpus for the Akeanon language, as well as building, training, and testing a model to generate initial results. The chapter is divided into five major parts: Data Collection, Speech and Text Corpus Development, Preprocessing, Validation, Building and Training A Model.
+This chapter discusses the methodology used to develop the text and speech corpus for the Akeanon language, as well as building, training, and testing a model to generate initial results. The chapter is divided into five major parts: Data Collection, Text and Speech Corpus Development, Preprocessing, Validation, Building and Training A Model.
 
-\section{RESEARCH ACTIVITIES}
 Figure~\ref{fig:flowchart} shows the general overview of the methodology for the development of an ASR system for the Akeanon language.
 
 \begin{figure}[h!]
@@ -13,7 +12,7 @@ Figure~\ref{fig:flowchart} shows the general overview of the methodology for the
 \end{figure}
 
 
-\subsection{Data Collection}
+\section{Data Collection}
 
 \textbf{Collating Pre-existing Online Resources}
 
@@ -92,7 +91,7 @@ After compiling the Akeanon word lists, the researchers had sought the assistanc
 
 During the gathering of the different Akeanon-based resources and text, the researchers had sought consent from the respective authors and owners to use their works, in respect to intellectual property rights. See Appendix A for the screenshots of various authors and authors granting the researchers permission to use their works.
 
-\subsection{Text and Speech Corpus Development}
+\section{Text and Speech Corpus Development}
 
 \textbf{Storing}
 
@@ -164,7 +163,7 @@ At the beginning of their session for the voice recordings, participants were pr
 
 For minor participants, additional ethical measures were implemented. A separate Parental/Guardian Consent Form were provided, which outlined the same key information regarding the study, along with specific assurances about the protection of the minor’s privacy and confidentiality. This form sought explicit permission from the parent or guardian before the minor is allowed to participate. Parents or guardians were also given the opportunity to ask questions and were assured that their child’s participation was entirely voluntary. Furthermore, minors were asked to provide assent—a simplified acknowledgment that they understand the study and agree to participate. Both the parent/guardian consent and the minor's assent were required before participation can proceed. Throughout the study, the rights and welfare of minor participants were prioritized, and measures were taken to ensure their comfort and safety.
 
-\subsection{Preprocessing}
+\section{Preprocessing}
 
 \textbf{Annotation of the Text Corpus}
 
@@ -215,26 +214,26 @@ Refer to Table~\ref{tab:namecoding} for the name coding of the 10-second audio t
    
 Finally, the cleaned up audio tracks were exported in a WAV format stored in a folder named after the speaker number.
 
-\subsection{Validation}
+\section{Validation}
 
 To validate the text and speech corpus, the researchers coordinated with native speakers and language experts to ensure the accuracy of the spelling, grammar, and transcriptions. The transcription accuracy was further verified by comparing the transcriptions to the spoken content and ensuring consistency across the entire corpus.
 
-\subsection{Building and Training a Model}
+\section{Building and Training a Model}
 
-To generate initial results for the automatic speech recognition (ASR) system, a model was built, trained, and tested using the Kaldi toolkit. A ten-fold cross-validation scheme was applied, where eight folds were used for training and two folds for validation. Training was performed using a monophone-triphone modeling approach, following the guide written by \shortciteA{Chodroff:2018}.
+To generate initial results for the automatic speech recognition (ASR) system, a model was built, trained, and tested using the Kaldi toolkit. A data split method was employed, with 90 recordings used for training and 10 recordings reserved for testing. The training followed a monophone-to-triphone modeling approach, based on the guide by \shortciteA{Chodroff:2018}.
 
 Before training, several essential files were prepared:
 
-\subsubsection{Dataset Preparation Files}
+\subsection{Dataset Preparation Files}
 
-The following files were created as required by the Kaldi data preparation process:
+For convenient mapping of the files in their respective sets and utterances they contain, an organized sheet file was prepared where relevant information was extracted by a custom script and the following files were generated as required by Kaldi data preparation process:
 
 \begin{itemize}
     \item \textbf{wav.scp}: Maps each audio file identifier to its corresponding file path.
     \item \textbf{text}: Associates each utterance identifier with its transcription.
     \item \textbf{utt2spk}: Defines the mapping between each utterance and its corresponding speaker.
     \item \textbf{spk2gender}: Specifies the gender of each speaker.
-    \item \textbf{corpus.txt}: Contains the complete set of uttered words across all recordings.
+   %  \item \textbf{corpus.txt}: Contains the complete set of uttered words across all recordings.
 \end{itemize}
 
 \vspace{1em}
@@ -255,12 +254,12 @@ The expected file formats are shown below:
 \texttt{text} & \texttt{<utterance\_id> word1 word2 word3 ...} \\
 \texttt{utt2spk} & \texttt{<utterance\_id> <speaker\_id>} \\
 \texttt{spk2gender} & \texttt{<speaker\_id> <gender>} \\
-\texttt{corpus.txt} & \texttt{words spoken in one recording} \\
+% \texttt{corpus.txt} & \texttt{words spoken in one recording} \\
 \hline
 \end{tabular}
 \end{table}
 
-\subsubsection{Language Data Files}
+\textbf{Language Data Files}
 
 Language modeling required the preparation of the following files:
 
@@ -294,4 +293,46 @@ The expected formats for the language data files are shown below:
 
 \vspace{1em}
 
--- to be discussed further --
+Data verification and cleanup were performed using built-in functionalities in Kaldi.
+
+\subsection{Language Modeling}
+
+For language modeling, a unigram count file was manually created based on the training set transcriptions. This file listed each unique word from the training corpus alongside its frequency of occurrence, representing the basic statistical distribution of word usage. The goal was to generate a simple unigram language model suitable for integration into the ASR decoding pipeline.
+
+Unlike more complex n-gram models, which consider word context, the unigram model assumes that each word is generated independently. While this simplification limits contextual understanding, it offers an efficient baseline for testing acoustic model performance without introducing additional dependencies or complexity. A snippet of the unigram count file is shown in Table~\ref{tab:unigram}.
+
+\begin{table}[h]
+\centering
+\caption{Example of Unigram Count File}
+\label{tab:unigram}
+\begin{tabular}{ll}
+\toprule
+\textbf{Word} & \textbf{Frequency} \\
+\midrule
+RO            & 310 \\
+IT            & 211  \\
+NGA           & 173  \\
+...           & ... \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The unigram model was then compiled into the decoding graph alongside the acoustic and lexical models. This language model enabled the ASR system to estimate the most probable word sequences based on observed word frequencies during decoding.
+
+\subsection{Training}
+
+For acoustic model training, the Kaldi toolkit was used to build increasingly sophisticated models based on the prepared speech corpus. The training pipeline followed Kaldi's conventional approach, beginning with a basic monophone model and progressing to more advanced triphone models.
+
+\begin{enumerate}
+    \item \textbf{Monophone Training}: A simple model was first trained using monophones to provide an initial alignment of the audio and transcript data. This step served as a foundation for subsequent triphone training.
+    
+    \item \textbf{Triphone Training (delta features)}: Using the monophone alignments, a triphone model was trained with delta and delta-delta features to capture more contextual variation in speech sounds.
+    
+    \item \textbf{Triphone Training with LDA+MLLT (tri3)}: A more refined model was then trained using Linear Discriminant Analysis (LDA) and Maximum Likelihood Linear Transform (MLLT). These techniques improved the model’s ability to distinguish between similar phonetic contexts by reducing dimensionality and applying global feature transforms.
+\end{enumerate}
+
+Each training stage included alignment and model estimation steps, using Kaldi’s built-in scripts. Upon completion of the final triphone model (tri3), the trained acoustic model was integrated with the pronunciation lexicon and unigram language model to perform decoding and generate automatic speech recognition (ASR) outputs.
+
+Decoding results were evaluated using Kaldi’s scoring scripts to compute the Word Error Rate (WER), providing a quantitative measure of system performance.
+
+
