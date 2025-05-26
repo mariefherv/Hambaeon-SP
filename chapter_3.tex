@@ -220,7 +220,7 @@ To validate the text and speech corpus, the researchers coordinated with native 
 
 \section{Building and Training a Model}
 
-To generate initial results for the automatic speech recognition (ASR) system, a model was built, trained, and tested using the Kaldi toolkit. A data split method was employed, with 90 recordings used for training and 10 recordings reserved for testing. The training followed a monophone-to-triphone modeling approach, based on the guide by \shortciteA{Chodroff:2018}.
+To generate initial results for the automatic speech recognition (ASR) system, a model was built, trained, and tested using the Kaldi toolkit using one set of data from the speech corpus. A data split method was employed, with 9 recordings used for training and 1 recording reserved for testing. The training process transitioned from monophone to triphone modeling, following the guidelines of \shortciteA{Chodroff:2018}, and was subsequently optimized using a Linear Discriminant Analysis (LDA) and Maximum Likelihood Linear Transformation (MLLT) model.
 
 Before training, several essential files were prepared:
 

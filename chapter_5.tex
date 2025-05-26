@@ -1,39 +1,31 @@
 \chapter{Summary, Conclusions, and Recommendations}
 
-This chapter provides a summary of the study, presents the conclusions drawn from the results, and outlines recommendations for future work.
+This chapter presents a comprehensive overview of the study, summarizes the key findings, draws conclusions based on the results, and outlines recommendations for future research and development.
 
 \section{Summary}
 
-The primary goal of this study was to develop resources and models to support automatic speech recognition (ASR) for the Akeanon language. To achieve this, the following tasks were accomplished:
-\begin{itemize}
-    \item A text corpus consisting of approximately 25,800 verified Akeanon words was constructed, covering various root words, derivations, and inflections.
-    \item Additional translations of the Swadesh 207-word list and SIL International's word list were created for five major Akeanon dialects.
-    \item A speech corpus consisting of 100 voice recordings from various speakers was collected to provide training and evaluation material.
-    \item Monophone and triphone acoustic models were developed and evaluated using a ten-fold cross-validation approach.
-\end{itemize}
+The primary objective of this study was to develop foundational resources and models to support automatic speech recognition (ASR) for the Akeanon language. Given the limited availability of linguistic and speech resources for Akeanon, a systematic approach was employed to construct both text and speech corpora and train ASR models using the Kaldi toolkit.
 
-The constructed corpora and ASR models lay the groundwork for future research and applications in Akeanon language technology.
+To achieve this goal, the following tasks were undertaken:
+
+\begin{itemize} \item A text corpus of approximately 25,800 verified Akeanon words was compiled, covering a broad spectrum of root words, derivations, and inflections, ensuring linguistic diversity. \item Additional translations of the Swadesh 207-word list and SIL International’s word list were created for five major Akeanon dialects to enhance dialectal coverage. \item A speech corpus was collected, consisting of 100 recordings totaling approximately 16 hours of speech from multiple speakers. This dataset provided diverse linguistic and phonetic variations for robust ASR model training. \item A fixed data split approach was employed, using nine recordings for training and reserving one recording for testing to maintain consistency across evaluations. \item Monophone and triphone acoustic models were developed, trained, and evaluated systematically to measure their performance. \end{itemize}
+
+The trained models were assessed based on their Word Error Rate (WER), with results indicating substantial improvements in recognition accuracy as more advanced feature extraction techniques were incorporated. The triphone model, enhanced with LDA+MLLT transformations, achieved the lowest WER of 5.49\%, demonstrating its effectiveness in handling Akeanon speech data.
+
+Through this study, the constructed corpora and trained ASR models establish a foundational step toward broader applications of speech technology for Akeanon, facilitating future research efforts aimed at enhancing the language’s digital accessibility.
 
 \section{Conclusions}
 
-Based on the results of the study, the following conclusions were drawn:
-\begin{itemize}
-    \item The creation of a diversified and verified text corpus greatly contributed to the linguistic resources available for the Akeanon language.
-    \item The collected speech data provided sufficient variability in pronunciation and intonation, which is important for robust acoustic modeling.
-    \item The trained monophone and triphone models achieved promising word recognition accuracy, demonstrating the feasibility of building an ASR system for Akeanon using the developed corpora.
-\end{itemize}
+The following conclusions were drawn based on the study's findings:
 
-Overall, the study successfully demonstrated initial steps toward enabling ASR capabilities for an underrepresented Philippine language.
+\begin{itemize} \item The creation of a verified and diverse text corpus significantly contributes to the linguistic resources available for Akeanon, supporting both ASR research and broader linguistic studies. \item The collection of varied speech recordings ensures sufficient phonetic diversity in pronunciation and intonation, which is essential for the robustness of acoustic models. \item The ASR models trained with a fixed 9-1 data split demonstrated promising results, with the triphone model incorporating LDA+MLLT achieving the highest accuracy, suggesting the viability of developing a functional ASR system for Akeanon. \end{itemize}
+
+These findings highlight the feasibility of utilizing machine learning techniques to process Akeanon speech effectively, paving the way for further advancements in speech technology tailored to underrepresented Philippine languages.
 
 \section{Recommendations}
 
-In light of the findings and limitations of the study, the following recommendations are proposed for future research and development:
-\begin{itemize}
-    \item Expand the text and speech corpora by including more dialects, larger vocabularies, and a greater variety of speakers to improve model generalization.
-    \item Explore advanced modeling techniques such as deep neural networks (DNNs) and end-to-end ASR systems for improved recognition performance.
-    \item Conduct further experiments involving larger datasets and alternative language modeling approaches to enhance recognition accuracy.
-    \item Investigate the development of tools and applications that can utilize the constructed corpora and ASR models for educational or cultural preservation purposes.
-\end{itemize}
+Building upon the results and limitations of this study, the following recommendations are proposed for future research and system development:
 
-Continued development in these areas will contribute to the broader goal of promoting and preserving the Akeanon language in the digital age.
+\begin{itemize} \item Expand the text and speech corpora to include additional dialects, an extended vocabulary set, and more speakers to enhance model generalization. \item Investigate more advanced ASR modeling techniques, including deep neural networks (DNNs) and end-to-end ASR systems, to improve recognition accuracy. \item Conduct additional experiments involving larger datasets and alternative feature extraction methods to optimize speech recognition performance. \item Explore the integration of Akeanon ASR into applications for language education, communication tools, and cultural preservation initiatives. \end{itemize}
 
+Continued advancements in these areas will further strengthen the technological support for Akeanon language preservation and accessibility, ensuring its place in the evolving digital landscape.
