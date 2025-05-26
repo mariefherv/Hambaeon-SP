@@ -1,37 +1,66 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%   Filename    : appendix_B.tex
+%   Filename    : appendix_C.tex
 %
-%   Description : This file will contain information about your Resource Persons
+%   Description : This file will contain information about your Results
 %                 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Resource Persons}
+\chapter{Results}
 \label{sec:appendixc}
 
-%
-%  Indicate your resource persons here:
-%
-%	<full name and title, e.g., Dr. Juan de la Cruz>
-%	<profession, e.g., faculty>
-%	<department, e.g., Division of Physical Sciences and Mathematics>
-%	<name of institution, e.g., University of the Philippines Visayas>
-%	<e-mail address>
-%
-%  the following shows 3 examples, replace entries with your own
-%
+\section*{Monophone Training Results}
 
-\newcommand{\resperson}[5]{%
-	\textbf{#1} \\ % Name and title
-	#2 \\          % Profession
-	#3 \\          % Department
-	\ifx\empty#4\empty\else #4 \\ \fi % Only print #4 (institution) if it's not empty
-	\url{#5}\vspace{0.5em}\\  % Email address
+{\lstset{
+		basicstyle=\ttfamily\small,
+		frame=single,
+		breaklines=true,
+		breakatwhitespace=true,
+		columns=fullflexible
 	}
+	\begin{lstlisting}
+		compute-wer --text --mode=present ark:exp/mono/decode_test/scoring_kaldi/test_filt.txt ark,p:- 
+		%WER 44.74 [ 285 / 637, 44 ins, 89 del, 152 sub ]
+		%SER 100.00 [ 38 / 38 ]
+		Scored 38 sentences, 0 not present in hyp.
+	\end{lstlisting}
+}
 
-% Make sure all 5 arguments are provided
-\resperson{Ms. Hazel Anne Cipriano}{Linguist}{University of the Philippines Diliman}{}{havcipriano@gmail.com}
-\resperson{Dr. John Orbista}{Local Collaborator}{College of Teacher Education}{Aklan State University}{johnorbista@gmail.com}
-\resperson{Dr. R. David Zorc (Lolo David)}{Linguist}{Language Research Center, Hyattsville, MD - retired}{}{dzorc1@comcast.net}
-\resperson{Dr. Anthea R. Redison}{Director}{Center for West Visayan Studies (CWVS)}{}{frredison@up.edu.ph}
-\resperson{Dr. John E. Barrios}{Professor of Literature}{University of the Philippines Visayas}{}{jebarrios3@up.edu.ph}
+\vspace{1em}
+
+\section*{Triphone (tri1) Training Results}
+
+{\lstset{
+		basicstyle=\ttfamily\small,
+		frame=single,
+		breaklines=true,
+		breakatwhitespace=true,
+		columns=fullflexible
+	}
+	\begin{lstlisting}
+		compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring_kaldi/test_filt.txt ark,p:- 
+		%WER 6.75 [ 43 / 637, 10 ins, 6 del, 27 sub ]
+		%SER 65.79 [ 25 / 38 ]
+		Scored 38 sentences, 0 not present in hyp.
+	\end{lstlisting}
+}
+
+\vspace{1em}
+
+\section*{Triphone LDA+MLLT Training Results}
+
+{\lstset{
+		basicstyle=\ttfamily\small,
+		frame=single,
+		breaklines=true,
+		breakatwhitespace=true,
+		columns=fullflexible
+	}
+	\begin{lstlisting}
+		compute-wer --text --mode=present ark:exp/tri2/decode_test/scoring_kaldi/test_filt.txt ark,p:- 
+		%WER 5.49 [ 35 / 637, 3 ins, 5 del, 27 sub ]
+		%SER 55.26 [ 21 / 38 ]
+		Scored 38 sentences, 0 not present in hyp.
+	\end{lstlisting}
+}
+
