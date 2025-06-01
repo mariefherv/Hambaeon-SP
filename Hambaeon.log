@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  26 MAY 2025 10:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  2 JUN 2025 04:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,10 +388,9 @@ File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 LaTeX Warning: Unused global option(s):
     [twopage].
 
-(Hambaeon.aux (title_page.aux) (approval.aux) (declaration.aux) (dedication.aux
-) (acknowledgment.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux) (appendix_A.aux
-) (appendix_B.aux) (appendix_C.aux))
+(Hambaeon.aux (title_page.aux) (approval.aux) (declaration.aux) (abstract.aux)
+(chapter_1.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux)
+(chapter_6.aux) (appendix_A.aux) (appendix_B.aux) (appendix_C.aux))
 \openout1 = `Hambaeon.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -500,29 +499,11 @@ Overfull \hbox (16.20757pt too wide) in paragraph at lines 12--22
 
 
 ]
-\openout2 = `dedication.aux'.
-
- (dedication.tex)
-
-[4
-
-
-
-]
-\openout2 = `acknowledgment.aux'.
-
- (acknowledgment.tex)
-
-[5
-
-
-
-]
 \openout2 = `abstract.aux'.
 
  (abstract.tex)
 
-[6
+[4
 
 
 
@@ -531,26 +512,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[7
+[5
 
 
 
 ]
 
-[8]
+[6]
 
-[9])
+[7])
 \tf@toc=\write3
 \openout3 = `Hambaeon.toc'.
 
 
 
-[10] (Hambaeon.lof
+[8] (Hambaeon.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[11
+[9
 
 ])
 \tf@lof=\write4
@@ -558,13 +539,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[12] (Hambaeon.lot)
+[10] (Hambaeon.lot)
 \tf@lot=\write5
 \openout5 = `Hambaeon.lot'.
 
 
 
-[13
+[11
 
 ]
 \openout2 = `chapter_1.aux'.
@@ -772,15 +753,15 @@ Underfull \vbox (badness 1331) has occurred while \output is active []
 [32]
 
 [33]
+Underfull \vbox (badness 2762) has occurred while \output is active []
+
+
 
 [34]
 Overfull \hbox (10.82758pt too wide) in paragraph at lines 268--269
 []\TU/lmr/bx/n/12 nonsilence_phones.txt\TU/lmr/m/n/12 : Contains all non-silenc
 e phones used in the project. 
  []
-
-
-Underfull \vbox (badness 1817) has occurred while \output is active []
 
 
 
@@ -826,48 +807,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[41])
+[41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[42]
+
+
+[42])
+
+[43]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
-Chapter 5.
 
-
-[43
+[44
 
 
 
 
 ]
-Overfull \hbox (0.72752pt too wide) in paragraph at lines 23--24
-[]\TU/lmr/m/n/12 The trained monophone and triphone models achieved promising w
-ord recog-
- []
+Chapter 5.
+
+Underfull \vbox (badness 6493) has occurred while \output is active []
 
 
-
-[44])
 
 [45]
+
+[46]
+
+[47])
+
+[48]
 \openout2 = `chapter_6.aux'.
 
  (chapter_6.tex
-
-[46
-
-
-
-
-]
 Chapter 6.
 (Hambaeon.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[47]
+[49
+
+
+
+
+]
 Underfull \hbox (badness 2753) in paragraph at lines 244--256
 []\TU/lmr/m/n/12 Chodroff, E.  (2018).  \TU/lmr/m/it/12 Kaldi tutorial.  \TU/lm
 r/m/n/12 Retrieved from $[][][][][] [][][] [][][] []
@@ -875,7 +860,7 @@ r/m/n/12 Retrieved from $[][][][][] [][][] [][][] []
 
 
 
-[48]
+[50]
 Underfull \hbox (badness 1490) in paragraph at lines 535--548
 \TU/lmr/m/n/12 trieved from $[][][][][] [][][] [][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][][][][] []
@@ -883,7 +868,7 @@ Underfull \hbox (badness 1490) in paragraph at lines 535--548
 
 
 
-[49]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 674--688
 [][][][][] [][][] [][][] [] [][][][] [] [][][] [] [][][][][][][] [] [][][][][][
 ][] [] [][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][][] []
@@ -891,7 +876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 674--688
 
 
 
-[50]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 797--813
 \TU/lmr/m/n/12 from $[][][][][] [][][] [][][][][][][][][][][][] [] [][][][] [] 
 [][][][] [] [][][][][][] [] [][] [] [][][] [] [][][][] [] [][][][][][][] []
@@ -918,9 +903,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 964--977
 
 
 
-[51]))
+[53]))
 
-[52]
+[54]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
@@ -1047,16 +1032,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[53
+[55
 
 
 
 
 ]
-
-[54]
-
-[55]
 
 [56]
 
@@ -1087,6 +1068,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [69]
 
 [70]
+
+[71]
+
+[72]
 \openout2 = `appendix_B.aux'.
 
  (appendix_B.tex
@@ -1101,31 +1086,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[71
+[73
 
 
 
 
 ]
 
-[72]
+[74]
 \openout2 = `appendix_C.aux'.
 
  (appendix_C.tex
 Appendix C.
 
 
-[73
+[75
 
 
 
 
 ])
 
-[74] (Hambaeon.aux (title_page.aux) (approval.aux) (declaration.aux)
-(dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
-(chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
-(appendix_A.aux) (appendix_B.aux) (appendix_C.aux))
+[76] (Hambaeon.aux (title_page.aux) (approval.aux) (declaration.aux)
+(abstract.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux)
+(chapter_5.aux) (chapter_6.aux) (appendix_A.aux) (appendix_B.aux)
+(appendix_C.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -1136,10 +1121,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9670 strings out of 409029
- 151187 string characters out of 5756943
+ 9624 strings out of 409029
+ 149944 string characters out of 5756943
  1964612 words of memory out of 5000000
- 32047 multiletter control sequences out of 15000+600000
+ 32015 multiletter control sequences out of 15000+600000
  563326 words of font info for 75 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  79i,10n,84p,1889b,1611s stack positions out of 10000i,1000n,20000p,200000b,200000s

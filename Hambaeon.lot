@@ -11,7 +11,8 @@
 \contentsline {table}{\numberline {3.6}{\ignorespaces File Format Specifications for Language Modeling}}{36}{}%
 \contentsline {table}{\numberline {3.7}{\ignorespaces Example of Unigram Count File}}{37}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Word Recognition Accuracy per Fold}}{42}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics for Akeanon language varieties by gender and audio duration.}}{42}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Word Error Rate (WER\%) for Each Acoustic Model}}{43}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

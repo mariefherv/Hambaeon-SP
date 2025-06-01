@@ -33,12 +33,12 @@
 \contentsline {section}{\numberline {4.2}Constructed Akeanon Speech Corpus}{41}{}%
 \contentsline {section}{\numberline {4.3}Monophone and Triphone Model Results}{42}{}%
 \contentsline {subsection}{\numberline {4.3.1}Recognition Performance}{42}{}%
-\contentsline {chapter}{\numberline {5}Summary, Conclusions, and Recommendations}{43}{}%
-\contentsline {section}{\numberline {5.1}Summary}{43}{}%
-\contentsline {section}{\numberline {5.2}Conclusions}{44}{}%
-\contentsline {section}{\numberline {5.3}Recommendations}{45}{}%
-\contentsline {chapter}{\numberline {6}References}{47}{}%
-\contentsline {section}{References}{47}{}%
-\contentsline {chapter}{\numberline {A}Research Ethic Document}{53}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{71}{}%
-\contentsline {chapter}{\numberline {C}Results}{73}{}%
+\contentsline {chapter}{\numberline {5}Summary, Conclusions, and Recommendations}{45}{}%
+\contentsline {section}{\numberline {5.1}Summary}{45}{}%
+\contentsline {section}{\numberline {5.2}Conclusions}{47}{}%
+\contentsline {section}{\numberline {5.3}Recommendations}{48}{}%
+\contentsline {chapter}{\numberline {6}References}{49}{}%
+\contentsline {section}{References}{49}{}%
+\contentsline {chapter}{\numberline {A}Research Ethic Document}{55}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{73}{}%
+\contentsline {chapter}{\numberline {C}Results}{75}{}%

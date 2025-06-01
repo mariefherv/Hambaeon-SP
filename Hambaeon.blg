@@ -9,10 +9,6 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: approval.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: declaration.aux
-Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: dedication.aux
-Reallocating 'name_of_file' (item size: 1) to 19 items.
-A level-1 auxiliary file: acknowledgment.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
@@ -25,7 +21,7 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_4.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_5.aux
-Illegal, another \bibstyle command---line 15 of file Hambaeon.aux
+Illegal, another \bibstyle command---line 13 of file Hambaeon.aux
  : \bibstyle
  :          {apacite}
 I'm skipping whatever remains of this command
@@ -80,7 +76,7 @@ ptr=1, stack=
 while executing---line 5079 of file apacite.bst
 You've used 39 entries,
             6951 wiz_defined-function locations,
-            1552 strings with 19381 characters,
+            1550 strings with 19349 characters,
 and the built_in function-call counts, 76269 in all, are:
 = -- 9610
 > -- 596
