@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  2 JUN 2025 04:32
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  2 JUN 2025 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,8 +502,19 @@ Overfull \hbox (16.20757pt too wide) in paragraph at lines 12--22
 \openout2 = `abstract.aux'.
 
  (abstract.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [4
+
+
+
+]
+
+[5]
+
+[6
 
 
 
@@ -512,26 +523,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[5
+[7]
 
+[8]
 
-
-]
-
-[6]
-
-[7])
+[9])
 \tf@toc=\write3
 \openout3 = `Hambaeon.toc'.
 
 
 
-[8] (Hambaeon.lof
+[10] (Hambaeon.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[9
+[11
 
 ])
 \tf@lof=\write4
@@ -539,15 +546,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[10] (Hambaeon.lot)
+[12] (Hambaeon.lot
+
+[13
+
+])
 \tf@lot=\write5
 \openout5 = `Hambaeon.lot'.
 
 
 
-[11
-
-]
+[14]
 \openout2 = `chapter_1.aux'.
 
  (chapter_1.tex
@@ -578,30 +587,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [4]
 
 [5]
-Underfull \vbox (badness 2088) has occurred while \output is active []
+Underfull \vbox (badness 1189) has occurred while \output is active []
 
 
 
-[6])
+[6]
 
-[7]
+[7])
+
+[8]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex
-
-[8
-
-
-
-
-]
 Chapter 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[9]
+[9
+
+
+
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -609,7 +618,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [10]
 
 [11]
-Overfull \hbox (5.68036pt too wide) in paragraph at lines 108--109
+Overfull \hbox (5.68036pt too wide) in paragraph at lines 33--34
 \TU/lmr/m/n/12 models that can fluently comprehend natural language, making rem
 arkable progress
  []
@@ -641,13 +650,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [16]
-LaTeX Font Info:    Trying to load font information for T3+lmr on input line 14
-8.
-LaTeX Font Info:    No file T3lmr.fd. on input line 148.
+LaTeX Font Info:    Trying to load font information for T3+lmr on input line 73
+.
+LaTeX Font Info:    No file T3lmr.fd. on input line 73.
 
 
 LaTeX Font Warning: Font shape `T3/lmr/m/n' undefined
-(Font)              using `T3/cmr/m/n' instead on input line 148.
+(Font)              using `T3/cmr/m/n' instead on input line 73.
 
 
 
@@ -691,9 +700,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (0.14787pt too wide) in paragraph at lines 27--28
-\TU/lmr/m/n/12 (1969), A Thesaurus in Aklanon by []Pastrana (2012), and Diksyun
-aryong Akeanon-
+Overfull \hbox (6.45236pt too wide) in paragraph at lines 27--28
+\TU/lmr/m/n/12 Filipino by []Sarabia-Belayro (2015), and multiple unpublished r
+esources from []SIL In-
  []
 
 
@@ -753,29 +762,55 @@ Underfull \vbox (badness 1331) has occurred while \output is active []
 [32]
 
 [33]
-Underfull \vbox (badness 2762) has occurred while \output is active []
+Underfull \vbox (badness 3312) has occurred while \output is active []
 
 
 
 [34]
-Overfull \hbox (10.82758pt too wide) in paragraph at lines 268--269
+File: ./figures/kaldi-pipeline.jpg Graphic file (type bmp)
+<./figures/kaldi-pipeline.jpg>
+
+
+[35]
+
+[36]
+Overfull \hbox (10.82758pt too wide) in paragraph at lines 277--278
 []\TU/lmr/bx/n/12 nonsilence_phones.txt\TU/lmr/m/n/12 : Contains all non-silenc
 e phones used in the project. 
  []
 
 
 
-[35]
+[37]
+Overfull \hbox (6.6195pt too wide) in paragraph at lines 305--306
+\TU/lmr/m/n/12 Utilities such as \TU/lmtt/m/n/12 utils/fix_data_dir.sh \TU/lmr/
+m/n/12 and \TU/lmtt/m/n/12 utils/validate_data_dir.sh \TU/lmr/m/n/12 were
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
-[36]
-
-[37])
 
 [38]
+
+[39]
+
+[40]
+Overfull \hbox (4.50435pt too wide) in paragraph at lines 355--356
+\TU/lmr/m/n/12 from the monophone model, a context-dependent triphone model was
+ trained.
+ []
+
+
+
+[41]
+
+[42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[43])
+
+[44]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
@@ -787,7 +822,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[39
+[45
 
 
 
@@ -802,42 +837,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[46]
+
+[47]
+
+[48]
+Underfull \vbox (badness 1924) has occurred while \output is active []
 
 
 
-[41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[49])
 
-
-
-[42])
-
-[43]
+[50]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
-
-[44
-
-
-
-
-]
 Chapter 5.
 
 Underfull \vbox (badness 6493) has occurred while \output is active []
 
 
 
-[45]
+[51
 
-[46]
 
-[47])
 
-[48]
+
+]
+
+[52]
+
+[53])
+
+[54]
 \openout2 = `chapter_6.aux'.
 
  (chapter_6.tex
@@ -847,7 +879,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[49
+[55
 
 
 
@@ -860,7 +892,7 @@ r/m/n/12 Retrieved from $[][][][][] [][][] [][][] []
 
 
 
-[50]
+[56]
 Underfull \hbox (badness 1490) in paragraph at lines 535--548
 \TU/lmr/m/n/12 trieved from $[][][][][] [][][] [][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][][][][] []
@@ -868,7 +900,7 @@ Underfull \hbox (badness 1490) in paragraph at lines 535--548
 
 
 
-[51]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 674--688
 [][][][][] [][][] [][][] [] [][][][] [] [][][] [] [][][][][][][] [] [][][][][][
 ][] [] [][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][][] []
@@ -876,7 +908,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 674--688
 
 
 
-[52]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 797--813
 \TU/lmr/m/n/12 from $[][][][][] [][][] [][][][][][][][][][][][] [] [][][][] [] 
 [][][][] [] [][][][][][] [] [][] [] [][][] [] [][][][] [] [][][][][][][] []
@@ -903,9 +935,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 964--977
 
 
 
-[53]))
+[59]))
 
-[54]
+[60]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
@@ -1032,24 +1064,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[55
+[61
 
 
 
 
 ]
-
-[56]
-
-[57]
-
-[58]
-
-[59]
-
-[60]
-
-[61]
 
 [62]
 
@@ -1072,6 +1092,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [71]
 
 [72]
+
+[73]
+
+[74]
+
+[75]
+
+[76]
+
+[77]
+
+[78]
 \openout2 = `appendix_B.aux'.
 
  (appendix_B.tex
@@ -1086,28 +1118,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[73
+[79
 
 
 
 
 ]
 
-[74]
+[80]
 \openout2 = `appendix_C.aux'.
 
  (appendix_C.tex
 Appendix C.
 
 
-[75
+[81
 
 
 
 
 ])
 
-[76] (Hambaeon.aux (title_page.aux) (approval.aux) (declaration.aux)
+[82] (Hambaeon.aux (title_page.aux) (approval.aux) (declaration.aux)
 (abstract.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux)
 (chapter_5.aux) (chapter_6.aux) (appendix_A.aux) (appendix_B.aux)
 (appendix_C.aux))
@@ -1121,12 +1153,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9624 strings out of 409029
- 149944 string characters out of 5756943
+ 9641 strings out of 409029
+ 150420 string characters out of 5756943
  1964612 words of memory out of 5000000
- 32015 multiletter control sequences out of 15000+600000
+ 32030 multiletter control sequences out of 15000+600000
  563326 words of font info for 75 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  79i,10n,84p,1889b,1611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Hambaeon.pdf (87 pages).
+Output written on Hambaeon.pdf (96 pages).

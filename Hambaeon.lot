@@ -7,12 +7,14 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces Simplified Vowel Inventory with Examples and Transcription}}{27}{}%
 \contentsline {table}{\numberline {3.3}{\ignorespaces Categories of Native Speakers}}{30}{}%
 \contentsline {table}{\numberline {3.4}{\ignorespaces Name Coding of the Split Audio Tracks}}{33}{}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces File Format Specifications for Dataset Preparation}}{35}{}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces File Format Specifications for Language Modeling}}{36}{}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Example of Unigram Count File}}{37}{}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces File Format Specifications for Dataset Preparation}}{37}{}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces File Format Specifications for Language Modeling}}{38}{}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Format of Unigram Count File}}{39}{}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Format of Phoneme Frequency Count File}}{40}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics for Akeanon language varieties by gender and audio duration.}}{42}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Word Error Rate (WER\%) for Each Acoustic Model}}{43}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics for the constructed Akeanon speech corpus by sets, gender, and audio duration.}}{48}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Phoneme frequency counts of the constructed Akeanon speech corpus.}}{49}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Word Error Rate (WER\%) for Different Acoustic Models}}{50}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
