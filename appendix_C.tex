@@ -47,7 +47,7 @@
 
 \vspace{1em}
 
-\section*{Triphone (tri2) Training Results}
+\section*{Triphone with LDA+MLLT (tri2a) Training Results}
 
 {\lstset{
 		basicstyle=\ttfamily\small,
@@ -60,6 +60,23 @@
 		compute-wer --text --mode=present ark:exp/tri2/decode_test/scoring_kaldi/test_filt.txt ark,p:- 
 		%WER 5.49 [ 35 / 637, 3 ins, 5 del, 27 sub ]
 		%SER 55.26 [ 21 / 38 ]
+		Scored 38 sentences, 0 not present in hyp.
+	\end{lstlisting}
+}
+
+\section*{SAT (tri3a) Training Results}
+
+{\lstset{
+		basicstyle=\ttfamily\small,
+		frame=single,
+		breaklines=true,
+		breakatwhitespace=true,
+		columns=fullflexible
+	}
+	\begin{lstlisting}
+		compute-wer --text --mode=present ark:exp/tri3a/decode_test/scoring_kaldi/test_filt.txt ark,p:- 
+		%WER 5.49 [ 35 / 637, 5 ins, 4 del, 26 sub ]
+		%SER 57.89 [ 22 / 38 ]
 		Scored 38 sentences, 0 not present in hyp.
 	\end{lstlisting}
 }

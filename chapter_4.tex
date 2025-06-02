@@ -1,6 +1,7 @@
 \chapter{Results and Discussion}
 
 This chapter presents the major outputs of the study, including the construction of the Akeanon text and speech corpora, and the performance evaluation of the developed ASR model.
+
 \section{Constructed Akeanon Text Corpus}
 A total of \textbf{25,800} Akeanon words were collected and verified for the text corpus. This collection excludes the Swadesh and SIL word lists and includes a wide variety of root words, derivations, and inflections. Figure~\ref{fig:text-corpus} shows a snapshot of the sheet file that serves as the database of the text corpus.
 
@@ -11,7 +12,7 @@ A total of \textbf{25,800} Akeanon words were collected and verified for the tex
     \label{fig:text-corpus}
 \end{figure}
 
-In addition to the main corpus, the study also translated the Swadesh 207-word list and SIL International's word list into five Akeanon dialects: Common Akeanon, Bukidnon, Buruangganon, Malaynon, and Nabasnon. Figures~\ref{fig:swadesh-list} and~\ref{fig:sil-list} display sample entries from these translations.
+In addition to the main corpus, the study also translated the Swadesh 207-word list and SIL International's word list into five Akeanon dialects: Common Akeanon, Bukidnon, Buruanganon, Malaynon, and Nabasnon. Figures~\ref{fig:swadesh-list} and~\ref{fig:sil-list} display sample entries from these translations.
 
 \begin{figure}[H]
     \centering
@@ -70,53 +71,21 @@ The collected speech data provides the necessary acoustic material for training,
 			\bottomrule
 		\end{tabular}
 	\end{adjustbox}
-	\caption{Statistics for the constructed Akeanon speech corpus by sets, gender, and audio duration.}
+	\caption{Details of the constructed Akeanon speech corpus}
 	\label{tab:bikolano_stats}
 \end{table}
 
 \subsection{Phoneme Frequency Analysis}
 A detailed phoneme frequency analysis was performed on the constructed speech corpus to better understand the distribution of sounds in Akeanon. This information is essential for optimizing acoustic modeling and ensuring that the ASR system is robust to the most common phonetic patterns.
 
-Table~\ref{tab:phoneme-frequency} summarizes the frequency counts of each phoneme observed in the corpus. The five most frequent phonemes are \textit{a}, \textit{n}, \textit{i}, \textit{o}, and \textit{g}, which together account for a significant portion of the total phoneme occurrences. This distribution reflects the phonological characteristics of Akeanon and highlights the importance of accurately modeling these sounds.
+Figure~\ref{fig:phoneme-frequency} summarizes the frequency counts of each phoneme observed in the corpus. The five most frequent phonemes are \textit{a}, \textit{n}, \textit{i}, \textit{o}, and \textit{g}, which together account for a significant portion of the total phoneme occurrences. This distribution reflects the phonological characteristics of Akeanon and highlights the importance of accurately modeling these sounds.
 
-\begin{table}[H]
+\begin{figure}[h!]
 	\centering
-	\begin{tabular}{lc}
-		\toprule
-		\textbf{Phoneme} & \textbf{Frequency} \\
-		\midrule
-		a   & 5,112 \\
-		n   & 1,671 \\
-		i   & 1,606 \\
-		o   & 1,542 \\
-		g   & 1,217 \\
-		u   & 1,073 \\
-		t   & 1,069 \\
-		m   & 984  \\
-		k   & 936  \\
-		p   & 877  \\
-		s   & 822  \\
-		b   & 738  \\
-		d   & 598  \\
-		l   & 591  \\
-		ea  & 566  \\
-		ng  & 500  \\
-		h   & 493  \\
-		y   & 437  \\
-		r   & 369  \\
-		w   & 295  \\
-		e   & 172  \\
-		sh  & 28   \\
-		ch  & 16   \\
-		dy  & 14   \\
-		ts  & 4    \\
-		v   & 2    \\
-		z   & 1    \\
-		\bottomrule
-	\end{tabular}
-	\caption{Phoneme frequency counts of the constructed Akeanon speech corpus.}
-	\label{tab:phoneme-frequency}
-\end{table}
+	\includegraphics[width=\textwidth]{./figures/frequency.png}
+   \caption{Phoneme frequency counts of the constructed Akeanon speech corpus}
+	\label{fig:phoneme-frequency}
+\end{figure}
 
 The results of this analysis can guide future improvements in lexicon design, pronunciation modeling, and targeted data augmentation for underrepresented phonemes.
 
