@@ -24,7 +24,7 @@ The researchers gathered different Akeanon-based resources and text available at
 
 \textbf{Compiling Akeanon Words}
 
-The researchers collected the standard Akeanon equivalent of the Swadesh 207 word-list, having the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015}, and multiple unpublished resources from \shortciteA{SIL:Malaynon, SIL:Bukidnon1, SIL:Bukidnon2} as references. All Akeanon words that can be found in all the collected and encoded resources were also considered, including the collated pre-existing online resources. In addition, words from different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, were also compiled by the researchers through tapping native speakers for each dialect and built on the Swadesh list as a starting point. 
+The researchers collected the Akeanon equivalent of the Swadesh 207 word-list, having the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015}, and multiple unpublished resources from \shortciteA{SIL:Malaynon, SIL:Bukidnon1, SIL:Bukidnon2} as references. All Akeanon words that can be found in all the collected and encoded resources were also considered, including the collated pre-existing online resources. In addition, words from different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, were also compiled by the researchers through tapping native speakers for each dialect and built on the Swadesh list as a starting point. 
 
 \textbf{Consonant and Vowel Inventories and Transcription}
 
@@ -121,7 +121,7 @@ For building the speech corpus, the researchers have prioritized words from the 
 
 \textbf{Voice Recording}
 
-A total of 50 native speakers of standard Akeanon were gathered for the recording of the generated 1000-word list. The 1000-word list was divided into five sets, with each containing 200 words that were unique to that set. The speakers were gathered by batches and were made to randomly choose a set for them to read. For each set, there were 10 designated speakers for the recording. The researchers also collaborated with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Dr. John Orbista as the primary contact. The speakers were of varying gender, and age to ensure diversity.
+A total of 50 native speakers of Akeanon were gathered for the recording of the generated 1000-word list. The 1000-word list was divided into five sets, with each containing 200 words that were unique to that set. The speakers were gathered by batches and were made to randomly choose a set for them to read. For each set, there were 10 designated speakers for the recording. The researchers also collaborated with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Dr. John Orbista as the primary contact. The speakers were of varying gender, and age to ensure diversity.
 
 For the voice recordings of different dialects namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, the researchers had tapped locals from the respective towns that speak the dialect. A total of 10 speakers for each dialect had their voices recorded. A modified set of the Swadesh 207-word list were provided for them, in respect of their spoken dialect. Table~\ref{tab:native_speakers} shows the categories of native speakers. 
 
@@ -145,7 +145,7 @@ For the voice recordings of different dialects namely Bukidnon, Buruangganon, Ma
    & 46-60 \\
    & 60+ \\ \hline
    Spoken Dialect & 
-   Standard Akeanon \\ 
+   Common Akeanon \\ 
    & Bukidnon \\ 
    & Buruangganon \\ 
    & Malaynon \\ 
@@ -191,7 +191,7 @@ Refer to Table~\ref{tab:namecoding} for the name coding of the 10-second audio t
    \hline
    \textbf{Category} & \textbf{Subcategories} & \textbf{Coding} \\
    \hline
-   Spoken Dialect & Standard Akeanon & AK \\ 
+   Spoken Dialect & Common Akeanon & AK \\ 
    & Bukidnon & LI \\ 
    & Kalibonhon & KO \\ 
    & Buruangganon & RU \\ 
@@ -220,23 +220,33 @@ To validate the text and speech corpus, the researchers coordinated with native 
 
 \section{Building and Training a Model}
 
-To generate initial results for the automatic speech recognition (ASR) system, a model was built, trained, and tested using the Kaldi toolkit using one set of data from the speech corpus. A data split method was employed, with 9 recordings used for training and 1 recording reserved for testing. The training process transitioned from monophone to triphone modeling, following the guidelines of \shortciteA{Chodroff:2018}, and was subsequently optimized using a Linear Discriminant Analysis (LDA) and Maximum Likelihood Linear Transformation (MLLT) model.
+To generate initial results for the automatic speech recognition (ASR) system, a model was built, trained, and evaluated using the Kaldi toolkit on a selected subset of the speech corpus. A data split approach was employed, allocating nine recordings for training and one recording for testing. The training process progressed through the traditional Gaussian Mixture Model-Hidden Markov Model (GMM-HMM) pipeline. It began with a monophone model, which served as the foundation for aligning the training data. This was followed by a triphone model to capture contextual dependencies between phonemes, thus enhancing recognition accuracy.
 
-Before training, several essential files were prepared:
+To further improve performance, the triphone model was refined using Linear Discriminant Analysis (LDA) and Maximum Likelihood Linear Transformation (MLLT), which produced more discriminative feature representations. Finally, Speaker Adaptive Training (SAT) was applied through feature-space Maximum Likelihood Linear Regression (fMLLR), allowing the system to account for inter-speaker variability. This modeling progression follows the guidelines of \shortciteA{Chodroff:2018} and reflects best practices in traditional ASR development.
+
+\textbf{Figure~\ref{fig:kaldi-pipeline}} illustrates the workflow of the ASR system development, highlighting the integration of data preparation, feature extraction, and model training stages. The diagram emphasizes the systematic approach taken to ensure a robust and efficient ASR system for the Akeanon language.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=0.8\textwidth, keepaspectratio]{./figures/kaldi-pipeline.jpg}
+   \caption{Workflow of the ASR System Development}
+   \label{fig:kaldi-pipeline}
+\end{figure}
 
 \subsection{Dataset Preparation Files}
 
-For convenient mapping of the files in their respective sets and utterances they contain, an organized sheet file was prepared where relevant information was extracted by a custom script and the following files were generated as required by Kaldi data preparation process:
+\textbf{Acoustic Data Files}
+
+The audio files were organized into a directory structure compatible with Kaldi's data preparation process. Each audio file was named according to the naming convention specified in the previous section, and the files were stored in a designated folder for each speaker. The audio files were then converted into a format suitable for Kaldi processing, ensuring that they were in the correct sample rate (16 kHz) and mono channel. For convenient mapping of the files in their respective sets and utterances they contain, an organized sheet file was prepared where relevant information was extracted by a custom script and the following files were generated as required by Kaldi data preparation process:
 
 \begin{itemize}
-    \item \textbf{wav.scp}: Maps each audio file identifier to its corresponding file path.
-    \item \textbf{text}: Associates each utterance identifier with its transcription.
-    \item \textbf{utt2spk}: Defines the mapping between each utterance and its corresponding speaker.
-    \item \textbf{spk2gender}: Specifies the gender of each speaker.
-   %  \item \textbf{corpus.txt}: Contains the complete set of uttered words across all recordings.
+       \item \textbf{wav.scp}: Maps each audio file identifier to its corresponding file path.
+       \item \textbf{text}: Associates each utterance identifier with its transcription.
+       \item \textbf{utt2spk}: Defines the mapping between each utterance and its corresponding speaker.
+       \item \textbf{spk2gender}: Specifies the gender of each speaker.
 \end{itemize}
 
-\vspace{1em}
+These files collectively enable Kaldi to organize and process the audio data efficiently. The \texttt{wav.scp} file links audio files to their identifiers, while the \texttt{text} file provides the corresponding transcriptions. The \texttt{utt2spk} file ensures that each utterance is associated with the correct speaker, and the \texttt{spk2gender} file adds speaker gender information, which can be used for analysis or model adaptation.
 
 The expected file formats are shown below:
 
@@ -254,14 +264,13 @@ The expected file formats are shown below:
 \texttt{text} & \texttt{<utterance\_id> word1 word2 word3 ...} \\
 \texttt{utt2spk} & \texttt{<utterance\_id> <speaker\_id>} \\
 \texttt{spk2gender} & \texttt{<speaker\_id> <gender>} \\
-% \texttt{corpus.txt} & \texttt{words spoken in one recording} \\
 \hline
 \end{tabular}
 \end{table}
 
-\textbf{Language Data Files}
+\textbf{Lexicon and Language Data Files}
 
-Language modeling required the preparation of the following files:
+In preparation for the language modeling, the researchers created several files that define the pronunciation lexicon, silence phones, and non-silence phones used in the ASR system. Silence phones represent pauses or breaks in speech, which are crucial for distinguishing between words and phrases, while non-silence phones represent the actual speech sounds. The lexicon file was generated by a custom script where it maps all the words used in the speech data from the constructed text corpus and their corresponding transcriptions. These files were essential for building the language model and ensuring that the ASR system could accurately recognize and decode spoken Akeanon words. The following files were created:
 
 \begin{itemize}
     \item \textbf{lexicon.txt}: Lists all words used in the project dictionary along with their corresponding phonemic transcriptions. Silence phones are also included.
@@ -293,17 +302,16 @@ The expected formats for the language data files are shown below:
 
 \vspace{1em}
 
-Data verification and cleanup were performed using built-in functionalities in Kaldi.
+Data verification and cleanup were performed using built-in functionalities in Kaldi. The toolkit provides scripts to check the consistency and integrity of data directories, ensuring that all required files are present and correctly formatted. Utilities such as \texttt{utils/fix\_data\_dir.sh} and \texttt{utils/validate\_data\_dir.sh} were used to automatically detect and resolve common issues, such as missing or mismatched entries, duplicate utterances, or incorrect file references. This step was essential to prevent errors during feature extraction, model training, and decoding, and to maintain the reliability of the experimental results.
 
 \subsection{Language Modeling}
+For language modeling, a unigram count file was generated using a custom script based on the training set transcriptions. This file listed each unique word from the training corpus alongside its frequency of occurrence, representing the basic statistical distribution of word usage. The goal was to generate a simple unigram language model suitable for integration into the ASR decoding pipeline.
 
-For language modeling, a unigram count file was manually created based on the training set transcriptions. This file listed each unique word from the training corpus alongside its frequency of occurrence, representing the basic statistical distribution of word usage. The goal was to generate a simple unigram language model suitable for integration into the ASR decoding pipeline.
-
-Unlike more complex n-gram models, which consider word context, the unigram model assumes that each word is generated independently. While this simplification limits contextual understanding, it offers an efficient baseline for testing acoustic model performance without introducing additional dependencies or complexity. A snippet of the unigram count file is shown in Table~\ref{tab:unigram}.
+However, the unigram model has significant limitations due to its lack of context. It assumes that each word is generated independently of the words that precede or follow it, which can lead to inaccuracies in predicting word sequences, especially in languages with complex grammatical structures. For example, it cannot capture dependencies between words, such as subject-verb agreement or collocations. In contrast, more complex models like bigram or trigram models consider the relationships between consecutive words, providing better contextual understanding at the cost of increased computational complexity and data requirements. Despite its simplicity, the unigram model serves as a useful baseline for evaluating the performance of the acoustic model without introducing additional dependencies. A snippet of the unigram file is shown in Table~\ref{tab:unigram}.
 
 \begin{table}[h]
 \centering
-\caption{Example of Unigram Count File}
+\caption{Format of Unigram Count File}
 \label{tab:unigram}
 \begin{tabular}{ll}
 \toprule
@@ -317,22 +325,64 @@ NGA           & 173  \\
 \end{tabular}
 \end{table}
 
-The unigram model was then compiled into the decoding graph alongside the acoustic and lexical models. This language model enabled the ASR system to estimate the most probable word sequences based on observed word frequencies during decoding.
+\subsection{Phoneme Frequency Analysis}
+To analyze the phoneme frequency in the Akeanon language, a Python script was developed to parse the phonetic transcriptions of the words in the compiled word list. The script counted the occurrences of each phoneme across all transcriptions, providing insights into the phonemic distribution within the language. The results of this analysis were stored in a text file, which contained two columns: the phoneme and its corresponding frequency count. This data was essential for understanding the phonetic characteristics of Akeanon and for guiding the design of the acoustic model. A snippet of the phoneme frequency count file is shown in Table~\ref{tab:phoneme}.
 
-\subsection{Training}
+\begin{table}[h]
+\centering
+\caption{Format of Phoneme Frequency Count File}
+\label{tab:phoneme}
+\begin{tabular}{ll}
+\toprule
+\textbf{Word} & \textbf{Frequency} \\
+\midrule
+a            & 100 \\
+b            & 99  \\
+e            & 98  \\
+...           & ... \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-For acoustic model training, the Kaldi toolkit was used to build increasingly sophisticated models based on the prepared speech corpus. The training pipeline followed Kaldi's conventional approach, beginning with a basic monophone model and progressing to more advanced triphone models.
+\subsection{Acoustic Model Training}
+For acoustic model training, the Kaldi toolkit was used to build a series of progressively refined models based on the prepared speech corpus. The training process followed the standard Gaussian Mixture Model–Hidden Markov Model (GMM-HMM) pipeline, beginning with a monophone model and culminating in a speaker-adaptive triphone model. Each stage of model development relied on alignments generated from the previous model, allowing successive models to be trained on increasingly accurate supervision.
+
+The pipeline was structured as follows:
 
 \begin{enumerate}
-    \item \textbf{Monophone Training}: A simple model was first trained using monophones to provide an initial alignment of the audio and transcript data. This step served as a foundation for subsequent triphone training.
-    
-    \item \textbf{Triphone Training (delta features)}: Using the monophone alignments, a triphone model was trained with delta and delta-delta features to capture more contextual variation in speech sounds.
-    
-    \item \textbf{Triphone Training with LDA+MLLT (tri3)}: A more refined model was then trained using Linear Discriminant Analysis (LDA) and Maximum Likelihood Linear Transform (MLLT). These techniques improved the model’s ability to distinguish between similar phonetic contexts by reducing dimensionality and applying global feature transforms.
+    \item \textbf{Monophone Training}: The process began by training a basic monophone model, which treats each phoneme independently of its context. Although simple, this model provided the necessary initial alignments between audio frames and phonetic units, which served as a foundation for more advanced models.
+
+    \item \textbf{Triphone Training with Delta Features (tri1)}: Using the alignments from the monophone model, a context-dependent triphone model was trained. This model incorporated delta and delta-delta features to capture first and second-order temporal dynamics in the audio signal, improving the model’s sensitivity to changes in speech patterns.
+
+    \item \textbf{Triphone Training with LDA+MLLT (tri2a)}: To further enhance discriminability, Linear Discriminant Analysis (LDA) was used to project features into a lower-dimensional space that maximized phonetic class separability. Maximum Likelihood Linear Transform (MLLT) was then applied to refine the feature space through global transformations, resulting in more robust acoustic modeling.
+
+    \item \textbf{Speaker Adaptive Training (SAT, tri3a)}: Finally, Speaker Adaptive Training was performed using feature-space Maximum Likelihood Linear Regression (fMLLR). This approach adapts features at the speaker level, allowing the model to account for inter-speaker variability and improve recognition accuracy in speaker-diverse conditions.
 \end{enumerate}
+Each training stage involved model estimation followed by forced alignment using Kaldi’s built-in scripts. The final SAT-enhanced triphone model (tri3a) was then integrated with the pronunciation lexicon and language model to perform decoding and generate automatic speech recognition (ASR) outputs. During training, the number of Gaussian mixtures (leaves) was controlled to range between approximately 2,500 and 15,000, depending on the model complexity and training stage. This range balances model expressiveness with the available amount of training data, ensuring stable and effective acoustic modeling without overfitting.
 
-Each training stage included alignment and model estimation steps, using Kaldi’s built-in scripts. Upon completion of the final triphone model (tri3), the trained acoustic model was integrated with the pronunciation lexicon and unigram language model to perform decoding and generate automatic speech recognition (ASR) outputs.
+These settings follow common practices in GMM-HMM training using Kaldi, where the mixture size is gradually increased to better capture acoustic variability.
 
-Decoding results were evaluated using Kaldi’s scoring scripts to compute the Word Error Rate (WER), providing a quantitative measure of system performance.
+The GMM-HMM pipeline was used exclusively in this study due to its reliability, interpretability, and compatibility with low-resource settings. Deep learning–based acoustic models, such as DNN-HMM or end-to-end architectures, typically require larger datasets and more computational resources for effective training. In contrast, GMM-HMM models can be trained effectively on smaller corpora and provide a sound foundation for understanding core ASR concepts. Moreover, the GMM-HMM framework is well-supported by Kaldi’s modular architecture and remains a common baseline in both academic and applied ASR research.
 
+\subsection{Decoding Graph Construction}
+The unigram model was then compiled into the decoding graph alongside the acoustic and lexical models using Kaldi’s graph-building utilities. This process involved integrating the pronunciation lexicon, the set of phones, and the unigram language model into a finite-state transducer (FST) decoding graph. The resulting graph provided the ASR system with a structured representation of all possible word sequences, constrained by the lexicon and language model probabilities.
 
+During decoding, the ASR system used this graph to search for the most likely word sequence given the observed acoustic features. The unigram language model contributed by assigning probabilities to individual words based on their frequency in the training corpus, while the acoustic model evaluated the likelihood of the audio features for each hypothesized word sequence. Although the unigram model does not capture word-to-word dependencies, its integration ensured that the system favored more frequent words and provided a baseline for evaluating the effectiveness of the acoustic and lexical modeling.
+
+This approach allowed for a modular and extensible decoding pipeline, where more complex language models (such as bigram or trigram models) could later be substituted to improve recognition accuracy as more data became available.
+
+\subsection{Decoding and Evaluation}
+The decoding process was performed using Kaldi’s decoding scripts, which utilized the trained acoustic model, the pronunciation lexicon, and the unigram language model to transcribe the audio recordings. The decoding was executed on a test set of audio files, which were not used during the training phase, to evaluate the model's performance on unseen data. The decoding process involved extracting features from the audio files, aligning them with the phonetic transcriptions, and generating word hypotheses based on the acoustic and language models. The decoding results were stored in a text file, which contained the recognized words along with their corresponding utterance. This file served as the output of the ASR system, providing a transcription of the spoken Akeanon words from the audio recordings.
+
+\subsection{Evaluation Metrics}
+To assess the performance of the ASR system, the primary metric used was Word Error Rate (WER), which quantifies the percentage of words that were incorrectly recognized by the system. WER is calculated as follows:
+
+\[
+\text{WER} = \frac{S + D + I}{N} \times 100\%
+\]
+
+where \( S \) is the number of substitutions, \( D \) is the number of deletions, \( I \) is the number of insertions, and \( N \) is the total number of words in the reference transcription.
+
+Kaldi provides built-in tools to compute WER by comparing the system’s output with the ground truth transcriptions. The evaluation results were analyzed to identify common recognition errors and to guide further improvements in the model and data preparation process.
+
+The decoding and evaluation steps completed the ASR system pipeline, enabling the researchers to objectively measure the system’s accuracy and identify areas for refinement. The results from this stage provided a baseline for future enhancements, such as incorporating more advanced language models or expanding the training dataset.
